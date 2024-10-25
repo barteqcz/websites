@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Olomouc - město, kde krása dýchá historií.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:site_name" content="Olomouc">
+    <meta property="og:title" content="Olomouc">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>O městě | Neoficiální stránky statutárního města Olomouc</title>
+</head>
+<body class="fade-in">
+    <header>
+        <a href="index.html"><img class="logo" src="imgs/logo.jpg"></a>
+        <div class="headerBox">
+            <div class="left">
+                <nav class="menu-desktop">
+                    <a href="o-meste.html"><b>O městě</b></a>
+                    <a href="kam-na-vylet.html"><b>Kam na výlet</b></a>
+                </nav>
+                <nav class="menu-mobile"><i class="fa fa-bars menu-mobile-icon" onclick="hamburgerMenu('imageText')"></i></nav>
+            </div>
+            <div class="right">
+                <a href="https://twitter.com/mesto_olomouc" target="_blank"><img src="imgs/x.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.youtube.com/@StatutarnimestoOlomouc/" target="_blank"><img src="imgs/yt.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.facebook.com/statutarni.mesto.olomouc/" target="_blank"><img src="imgs/fb.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.instagram.com/olomouc.cz/" target="_blank"><img src="imgs/ig.svg" width="50px" height="50px"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="myLinks" onclick="hamburgerMenu('imageText')">
+            <div class="myLinksPosition" style="margin-bottom: 20px;"><a style="color: white; text-decoration: none;" href="o-meste.html"><b>O městě</b></a></div>
+            <div class="myLinksPosition"><a style="color: white; text-decoration: none;" href="kam-na-vylet.html"><b>Kam na výlet</b></a></div>
+        </div>
+        <section id="imageText">
+            <div class="imageText-image">
+                <img src="imgs/ol1.jpg">
+            </div>
+            <div class="imageText-text">
+                <p><b>Olomouc</b>, krajské město olomouckého kraji, počitájicí přes 100 tis. obyvatel.<br><br>Srdce Moravy a historický klenot, skrývá v sobě bohaté dědictví, které zasahuje hluboko do českých dějin.<br><br>Jeho architektonická krása a kulturní bohatství přitahují návštěvníky z celého světa.</p>
+            </div>
+        </section>
+        <div class="vh-container"><div class="vh"></div></div>
+        <section id="imageText">
+            <div class="imageText-image desktop-hide">
+                <img src="imgs/ol2.jpg">
+            </div>
+            <div class="imageText-text2">
+                <p>Architektura Olomouce je jako živý průvodce historií, jejíž každý oblouk a každý detail vypráví příběh minulých generací.<br><br>Od gotických klenotů, přes renesanční perly až po barokní skvosty, město zanechalo nesmazatelnou stopu v evropském architektonickém dědictví.<br><br>Dnes, moderní architektura prolíná se s historickými památkami a vytváři unikátní spojení minulosti a současnosti.<br><br>Olomouc má před sebou nejen úkol chránit a restaurovat své historické poklady, ale také vytvářet nové architektonické díla, která budou inspirovat a obohacovat život místních obyvatel i návštěvníků.</p>
+            </div>
+            <div class="imageText-image mobile-hide">
+                <img src="imgs/ol2.jpg">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

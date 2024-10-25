@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <meta name="description" content="Olomouc - město, kde krása dýchá historií.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:site_name" content="Olomouc">
+    <meta property="og:title" content="Olomouc">
+    <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <script src="../script.js"></script>
+    <title>Horní náměstí | Neoficiální stránky statutárního města Olomouc</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../imgs/logo.jpg"></a>
+        <div class="headerBox">
+            <div class="left">
+                <nav class="menu-desktop">
+                    <a href="../o-meste.html"><b>O městě</b></a>
+                    <a href="../kam-na-vylet.html"><b>Kam na výlet</b></a>
+                </nav>
+                <nav class="menu-mobile"><i class="fa fa-bars menu-mobile-icon" onclick="hamburgerMenu('sectionNumber1')"></i></nav>
+            </div>
+            <div class="right">
+                <a href="https://twitter.com/mesto_olomouc" target="_blank"><img src="../imgs/x.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.youtube.com/@StatutarnimestoOlomouc/" target="_blank"><img src="../imgs/yt.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.facebook.com/statutarni.mesto.olomouc/" target="_blank"><img src="../imgs/fb.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.instagram.com/olomouc.cz/" target="_blank"><img src="../imgs/ig.svg" width="50px" height="50px"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="myLinks" onclick="hamburgerMenu('sectionNumber1')">
+            <div class="myLinksPosition" style="margin-bottom: 20px;"><a style="color: white; text-decoration: none;" href="../o-meste.html"><b>O městě</b></a></div>
+            <div class="myLinksPosition"><a style="color: white; text-decoration: none;" href="../kam-na-vylet.html"><b>Kam na výlet</b></a></div>
+        </div>
+        <section id="place">
+        <div class="left2">
+            <h1 style="font-size: 48px; margin-bottom: 30px;">Horní náměstí&nbsp;&nbsp;&nbsp;<i style="color: brown;" class="fa-solid fa-landmark" title="Architektonická krása"></i></h1>
+            <p style="font-size: 22px;">Horní náměstí je nejvýznamnější náměstí v Olomouci. Nachází se přímo v centru historického jádra města (místní část Olomouc-město) a je tak součástí olomoucké městské památkové rezervace. Nachází se na něm mimo jiné sloup Nejsvětější Trojice, který je zapsán na seznamu památek UNESCO. Jeho dominantou je renesanční radnice s orlojem, náměstí je také místem konání řady společenských, kulturních a prodejních akcí (Dny evropského dědictví, vánoční trhy).<br><br>Horní náměstí je na jihovýchodě propojené s Dolním náměstím – druhým z hlavních náměstí v centru města. Ač se z názvů obou náměstí může zdát, že Horní náměstí je položené výše, opak je pravdou. Referenční bod Horního náměstí (Sloup Nejsvětější Trojice) leží v nadmořské výšce 217 m n. m., zatímco za referenční bod Dolního náměstí je považována Neptunova kašna, která leží v nadmořské výšce 220 m n. m. Do 50. let 20. století bylo Horní náměstí dopravně dostupné všemi linkami olomouckých tramvají.</p>
+        </div>
+        <div class="vl"></div>
+        <div class="right2">
+            <div class="imageGallery">
+                <div class="imageGallerySlides">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="imgs/horninamesti.jpg" style="width:100%">
+                </div>
+                <div class="imageGallerySlides">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="imgs/horninamesti2.jpg" style="width:100%">
+                </div>
+                <div class="imageGallerySlides">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="imgs/horninamesti3.jpg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <iframe style="border: none; margin-top: 20px;" src="https://frame.mapy.cz/s/guhekojuve" width="100%" height="300" frameborder="0"></iframe>
+        </div>
+        </section>
+    </main>
+</body>
+</html>

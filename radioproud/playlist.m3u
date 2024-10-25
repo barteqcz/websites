@@ -1,0 +1,154 @@
+#EXTM3U
+
+#EXTINF:-1, ČRo Rádiožurnál
+http://amp.cesnet.cz:8000/cro1-256.ogg
+
+#EXTINF:-1, ČRo Dvojka
+http://amp.cesnet.cz:8000/cro2-256.ogg
+
+#EXTINF:-1, ČRo Vltava
+https://rozhlas.stream/vltava_mp3_256.mp3
+
+#EXTINF:-1, ČRo Plus
+http://amp.cesnet.cz:8000/cro-plus-256.ogg
+
+#EXTINF:-1, ČRo Praha
+https://rozhlas.stream/radio_dab_praha.mp3
+
+#EXTINF:-1, ČRo Brno
+https://rozhlas.stream/brno.mp3
+
+#EXTINF:-1, ČRo Ostrava
+https://rozhlas.stream/ostrava.mp3
+
+#EXTINF:-1, ČRo Olomouc
+https://rozhlas.stream/olomouc.mp3
+
+#EXTINF:-1, ČRo České Budějovice
+https://rozhlas.stream/ceske_budejovice.mp3
+
+#EXTINF:-1, ČRo Hradec Králové
+https://rozhlas.stream/hradec_kralove.mp3
+
+#EXTINF:-1, ČRo Karlovy Vary
+https://rozhlas.stream/karlovy_vary.mp3
+
+#EXTINF:-1, ČRo Liberec
+https://rozhlas.stream/liberec.mp3
+
+#EXTINF:-1, ČRo Pardubice
+https://rozhlas.stream/pardubice.mp3
+
+#EXTINF:-1, ČRo Plzeň
+https://rozhlas.stream/plzen.mp3
+
+#EXTINF:-1, ČRo Střední Čechy
+https://rozhlas.stream/region.mp3
+
+#EXTINF:-1, ČRo Sever
+https://rozhlas.stream/sever.mp3
+
+#EXTINF:-1, ČRo Vysočina
+https://rozhlas.stream/vysocina.mp3
+
+#EXTINF:-1, ČRo Zlín
+https://rozhlas.stream/zlin.mp3
+
+#EXTINF:-1, Fajn Rádio
+https://playerservices.streamtheworld.com/api/livestream-redirect/FAJN_RADIO_128.mp3
+
+#EXTINF:-1, Hitrádio City (Praha)
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_CITY_PRAHA_128.mp3
+
+#EXTINF:-1, Hitrádio City (Brno)
+https://ice.radia.cz/citybrno128.mp3
+
+#EXTINF:-1, Hitrádio Orion
+https://ice.radia.cz/orion128.mp3
+
+#EXTINF:-1, Hitrádio Contact
+https://ice3.radia.cz/hitradiocontact128.mp3
+
+#EXTINF:-1, Hitrádio Černá Hora
+https://ice.radia.cz/cernahora128.mp3
+
+#EXTINF:-1, Hitrádio Faktor
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_FAKTOR_128.mp3
+
+#EXTINF:-1, Hitrádio FM Plus
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_FMPLUS_128.mp3
+
+#EXTINF:-1, Hitrádio North Music
+https://ice.radia.cz/hitradionorthmusic128.mp3
+
+#EXTINF:-1, Hitrádio Vysočina
+https://playerservices.streamtheworld.com/api/livestream-redirect/HITRADIO_VYSOCINA_128.mp3
+
+#EXTINF:-1, Hitrádio Zlín
+https://ice.radia.cz/radiozlin128.mp3
+
+#EXTINF:-1, Evropa 2
+https://ice.actve.net/fm-evropa2-128
+
+#EXTINF:-1, Frekvence 1
+https://ice.actve.net/fm-frekvence1-128
+
+#EXTINF:-1, Rádio Blaník
+https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_BLANIK_128.mp3
+
+#EXTINF:-1, Rádio Kiss
+https://icecast4.play.cz/kiss128.mp3
+
+#EXTINF:-1, Signal Rádio
+https://icecast1.play.cz/signal192.mp3
+
+#EXTINF:-1, ZUN Rádio
+https://icecast9.play.cz/zun192.mp3
+
+#EXTINF:-1, Rock Rádio
+https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_RADIO_128.mp3
+
+#EXTINF:-1, Rádio Impuls
+https://icecast1.play.cz/impuls128.mp3
+
+#EXTINF:-1, Rádio Beat
+https://ice5.radia.cz/beat128.mp3
+
+#EXTINF:-1, Country Rádio
+https://icecast4.play.cz/country128.mp3
+
+#EXTINF:-1, Dance Rádio
+https://ice.actve.net/dance-radio320.mp3
+
+#EXTINF:-1, Free Rádio
+https://icecast8.play.cz/freeradio128.mp3
+
+#EXTINF:-1, Rádio Čas
+https://icecast7.play.cz/casradio128.mp3
+
+#EXTINF:-1, Rádio Jih
+https://icecast6.play.cz/jih128.mp3
+
+#EXTINF:-1, Fresh Rádio
+https://icecast.beatzone.cz/radio/8000/320.mp3
+
+#EXTINF:-1, Rádio Hana
+https://icecast8.play.cz/hana128.mp3
+
+#EXTINF:-1, Rádio Krokodýl
+https://icecast4.play.cz/krokodyl128.mp3
+
+#EXTINF:-1, Rádio Metropole
+https://icecast9.play.cz/metropole128.mp3
+
+#EXTINF:-1, Rádio Orlicko
+https://server.radioorlicko.cz/stream192.mp3
+
+#EXTINF:-1, Rádio 1
+https://n22a-eu.rcs.revma.com/stk8hrvb938uv
+
+#EXTINF:-1, Rádio Spin
+https://ice5.radia.cz/spin128.mp3
+
+#EXTINF:-1, Classic Praha
+https://icecast8.play.cz/classic128.mp3

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Olomouc - město, kde krása dýchá historií.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:site_name" content="Olomouc">
+    <meta property="og:title" content="Olomouc">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>Kam na výlet | Neoficiální stránky statutárního města Olomouc</title>
+</head>
+<body class="fade-in">
+    <header>
+        <a href="index.html"><img class="logo" src="imgs/logo.jpg"></a>
+        <div class="headerBox">
+            <div class="left">
+                <nav class="menu-desktop">
+                    <a href="o-meste.html"><b>O městě</b></a>
+                    <a href="kam-na-vylet.html"><b>Kam na výlet</b></a>
+                </nav>
+                <nav class="menu-mobile"><i class="fa fa-bars menu-mobile-icon" onclick="hamburgerMenu('test')"></i></nav>
+            </div>
+            <div class="right">
+                <a href="https://twitter.com/mesto_olomouc" target="_blank"><img src="imgs/x.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.youtube.com/@StatutarnimestoOlomouc/" target="_blank"><img src="imgs/yt.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.facebook.com/statutarni.mesto.olomouc/" target="_blank"><img src="imgs/fb.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.instagram.com/olomouc.cz/" target="_blank"><img src="imgs/ig.svg" width="50px" height="50px"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+      <div id="myLinks" onclick="hamburgerMenu('test')">
+            <div class="myLinksPosition" style="margin-bottom: 20px;"><a style="color: white; text-decoration: none;" href="o-meste.html"><b>O městě</b></a></div>
+            <div class="myLinksPosition"><a style="color: white; text-decoration: none;" href="kam-na-vylet.html"><b>Kam na výlet</b></a></div>
+      </div>
+      <div id="test">
+          <h1 class="txtalcen">Kam na výlet v Olomouci?</h1>
+          <p class="txtalcen" style="margin-bottom: 30px;">Tady najdete ty nejpopularnější turistická mistá, a taky skrýté klenoty města.</p>
+      </div>
+      <section id="list">
+         <div class="positionBox">
+             <div class="photo"><img src="kam-na-vylet/imgs/horninamesti.jpg"></div>
+             <div class="desc">
+                <a style="text-decoration: none; color: black;" href="kam-na-vylet/horni-namesti.html">
+                    <h1>Horní náměstí&nbsp;&nbsp;<i style="color: brown;" class="fa-solid fa-landmark" title="Architektonická krása"></i></h1>
+                    <p>Nachází se přímo v centru historického jádra města (místní část Olomouc-město) a...</p>
+                </a>
+              </div>
+              <a href="kam-na-vylet/horni-namesti.html"><i class="fa-solid fa-arrow-right pointer"></i></a>
+        </div>
+        <div class="positionBox">
+             <div class="photo"><img src="kam-na-vylet/imgs/dolninamesti.jpg"></div>
+             <div class="desc">
+                <a style="text-decoration: none; color: black;" href="kam-na-vylet/dolni-namesti.html">
+                    <h1>Dolní náměstí&nbsp;&nbsp;<i style="color: brown;" class="fa-solid fa-landmark" title="Architektonická krása"></i></h1>
+                    <p>Dolní náměstí je jedním z nejdůležitějších náměstí v Olomouci. Náměstí spadá do o...</p>
+                </a>
+              </div>
+              <a href="kam-na-vylet/dolni-namesti.html"><i class="fa-solid fa-arrow-right pointer"></i></a>
+        </div>
+        <div class="positionBox">
+             <div class="photo"><img src="kam-na-vylet/imgs/zoo.jpg"></div>
+             <div class="desc">
+                <a style="text-decoration: none; color: black;" href="kam-na-vylet/zoo-olomouc.html">
+                    <h1>ZOO Olomouc&nbsp;&nbsp;<i style="color: green;" class="fa-solid fa-leaf" title="Blízké přirodě"></i>&nbsp;<i style="color: purple;" class="fa-solid fa-children" title="Vhodné pro dětí"></i></h1>
+                    <p>Najdete zde nejen atraktivní výběhy s mnoha architektonickými prvky, ale také saf...</p>
+                    <p class="statusInformator" id="status-info-zoo"></p>
+                </a>
+              </div>
+              <a href="kam-na-vylet/zoo-olomouc.html"><i class="fa-solid fa-arrow-right pointer"></i></a>
+        </div>
+        <div class="positionBox">
+             <div class="photo"><img src="kam-na-vylet/imgs/bezrucovysady.jpg"></div>
+             <div class="desc">
+                <a style="text-decoration: none; color: black;" href="kam-na-vylet/bezrucovy-sady.html">
+                    <h1>Bezručovy Sady&nbsp;&nbsp;<i style="color: green;" class="fa-solid fa-leaf" title="Blízké přirodě"></i>&nbsp;<i style="color: purple;" class="fa-solid fa-children" title="Vhodné pro dětí"></i></h1>
+                    <p>Bud'te opravdu blízko přirody v centru města</p>
+                </a>
+              </div>
+              <a href="kam-na-vylet/bezrucovy-sady.html"><i class="fa-solid fa-arrow-right pointer"></i></a>
+        </div>
+        <div class="positionBox">
+             <div class="photo"><img src="kam-na-vylet/imgs/vlastivednemuzeum.jpg"></div>
+             <div class="desc">
+                <a style="text-decoration: none; color: black;" href="kam-na-vylet/vlastivedne-muzeum.html">
+                    <h1>Vlastivědné Muzeum&nbsp;&nbsp;<i style="color: blue;" title="Vlastenecký objekt" class="fa-solid fa-flag"></i></h1>
+                    <p>Vlastivědné muzeum v Olomouci je příspěvkovou organizací zřízenou a financovanou Olomo...</p>
+                    <p class="statusInformator" id="status-info-vmo"></p>
+                </a>
+              </div>
+              <a href="kam-na-vylet/vlastivedne-muzeum.html"><i class="fa-solid fa-arrow-right pointer"></i></a>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

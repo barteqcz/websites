@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="česká, rádia, proud, radio">
+        <title>Přídat další stanicí | Rádioproud - česká rádia online.</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="theme.js"></script>
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <i class="fa-solid fa-toggle-off taskbar-icons toggle-btn" onclick="toggleMode()"></i>
+        </header>
+        
+        <main style="height: calc(100vh - 120px); display: flex; justify-content: center;">
+            <div class="suggestion-box">
+                <form id="addStation" action="https://formsubmit.co/bartosz1@email.cz" method="POST">
+                    <input type="text" name="newStationName" id="newStationName" placeholder="Název stanice" required>
+                    <input type="text" name="newStationWebSite" id="newStationWebSite" placeholder="Odkaz na web stanice">
+                    <input type="text" name="newStationWebStream" id="newStationWebStream" placeholder="Webstream stanice">
+                    <input type="submit" class="btn btn-link" style="margin-top: 30px; margin-bottom: 10px; width: 100%;">
+                </form>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

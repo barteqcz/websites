@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <meta name="description" content="Olomouc - město, kde krása dýchá historií.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:site_name" content="Olomouc">
+    <meta property="og:title" content="Olomouc">
+    <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>Zoologická zahrada | Neoficiální stránky statutárního města Olomouc</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../imgs/logo.jpg"></a>
+        <div class="headerBox">
+            <div class="left">
+                <nav class="menu-desktop">
+                    <a href="../o-meste.html"><b>O městě</b></a>
+                    <a href="../kam-na-vylet.html"><b>Kam na výlet</b></a>
+                </nav>
+                <nav class="menu-mobile"><i class="fa fa-bars menu-mobile-icon" onclick="hamburgerMenu('sectionNumber1')"></i></nav>
+            </div>
+            <div class="right">
+                <a href="https://twitter.com/mesto_olomouc" target="_blank"><img src="../imgs/x.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.youtube.com/@StatutarnimestoOlomouc/" target="_blank"><img src="../imgs/yt.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.facebook.com/statutarni.mesto.olomouc/" target="_blank"><img src="../imgs/fb.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.instagram.com/olomouc.cz/" target="_blank"><img src="../imgs/ig.svg" width="50px" height="50px"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="myLinks" onclick="hamburgerMenu('sectionNumber1')">
+            <div class="myLinksPosition" style="margin-bottom: 20px;"><a style="color: white; text-decoration: none;" href="../o-meste.html"><b>O městě</b></a></div>
+            <div class="myLinksPosition"><a style="color: white; text-decoration: none;" href="../kam-na-vylet.html"><b>Kam na výlet</b></a></div>
+        </div>
+        <section id="place">
+        <div class="left2">
+            <h1 style="font-size: 48px;">ZOO Olomouc&nbsp;&nbsp;&nbsp;<i style="color: green;" class="fa-solid fa-leaf" title="Blízké přirodě"></i>&nbsp;&nbsp;<i style="color: purple;" class="fa-solid fa-children" title="Vhodné pro dětí"></i></h1>
+            <p style="font-size: 24px;">Zoologická zahrada Olomouc rozprostírá se v lesích v podhůří Nízkého Jeseníku, v místní části krajského města Olomouc – na Svatém Kopečku a je lehce dostupná MHD. Zájmu návštěvníků se těší především šest pavilonů (pavilon žiraf, opic, šelem, netopýrů, levhartů mandžuských a jihoamerický pavilon), ale i společný výběh medvědů a vlků, průchozí výběh klokanů, mořská akvária nebo Euroasijské safari.<br><br>Pro děti je přímo v areálu umístěno dětské hřiště a lanové centrum Lanáček. Blízký kontakt se zvířaty je dětem umožněn ve výběhu ovcí, králíků zakrslých, koz a lam. Zoo je otevřena celoročně.</p>
+            <h2 style="margin-top: 40px;">Otevirací doba</h2>
+            <p style="font-size: 24px;">Ponděli - Neděle: 09:00 - 18:00</p>
+            <p style="font-size: 24px; font-weight: bold;" id="status-info-zoo"></p>
+        </div>
+        <div class="vl"></div>
+        <div class="right2">
+            <div class="imageGallery">
+                <div class="imageGallerySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="imgs/zoo.jpg" style="width:100%">
+                </div>
+                <div class="imageGallerySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="imgs/zoo2.jpg" style="width:100%">
+                </div>
+                <div class="imageGallerySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="imgs/zoo3.jpg" style="width:100%">
+                </div>
+                <div class="imageGallerySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="imgs/zoo4.jpeg" style="width:100%">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <iframe style="border: none; margin-top: 20px;" src="https://frame.mapy.cz/s/davezusoza" width="100%" height="300" frameborder="0"></iframe>
+        </div>
+        </section>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>

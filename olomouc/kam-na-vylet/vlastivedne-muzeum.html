@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <meta name="description" content="Olomouc - město, kde krása dýchá historií.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:site_name" content="Olomouc">
+    <meta property="og:title" content="Olomouc">
+    <link rel="icon" type="image/x-icon" href="../imgs/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <title>Vlastivědné Muzeum | Neoficiální stránky statutárního města Olomouc</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../imgs/logo.jpg"></a>
+        <div class="headerBox">
+            <div class="left">
+                <nav class="menu-desktop">
+                    <a href="../o-meste.html"><b>O městě</b></a>
+                    <a href="../kam-na-vylet.html"><b>Kam na výlet</b></a>
+                </nav>
+                <nav class="menu-mobile"><i class="fa fa-bars menu-mobile-icon" onclick="hamburgerMenu('sectionNumber1')"></i></nav>
+            </div>
+            <div class="right">
+                <a href="https://twitter.com/mesto_olomouc" target="_blank"><img src="../imgs/x.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.youtube.com/@StatutarnimestoOlomouc/" target="_blank"><img src="../imgs/yt.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.facebook.com/statutarni.mesto.olomouc/" target="_blank"><img src="../imgs/fb.svg" width="50px" height="50px"></a><div class="space-20px"></div>
+                <a href="https://www.instagram.com/olomouc.cz/" target="_blank"><img src="../imgs/ig.svg" width="50px" height="50px"></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="myLinks" onclick="hamburgerMenu('sectionNumber1')">
+            <div class="myLinksPosition" style="margin-bottom: 20px;"><a style="color: white; text-decoration: none;" href="../o-meste.html"><b>O městě</b></a></div>
+            <div class="myLinksPosition"><a style="color: white; text-decoration: none;" href="../kam-na-vylet.html"><b>Kam na výlet</b></a></div>
+        </div>
+        <section id="place">
+        <div class="left2">
+            <h1 style="font-size: 48px;">Vlastivědné Muzeum&nbsp;&nbsp;&nbsp;<i style="color: blue;" title="Vlastenecký objekt" class="fa-solid fa-flag"></i></h1>
+            <p style="font-size: 24px;">Vlastivědné muzeum v Olomouci vlastní přes 1 000 000 sbírkových předmětů a z hlediska rozsahu své sbírky se řadí mezi největší muzea v České republice. Sbírkový fond v oblasti společenských i přírodních věd pokrývá nejen střední Moravu, ale i širší území s přesahy do zahraničí. Mimo to vydává periodikum Zprávy Vlastivědného muzea v Olomouci.</p>
+            <h2 style="margin-top: 40px;">Otevirací doba</h2>
+            <p style="font-size: 24px;">Úterý - Neděle: 10:00 - 18:00</p>
+            <p style="font-size: 24px; font-weight: bold;" id="status-info-vmo"></p>
+        </div>
+        <div class="vl"></div>
+        <div class="right2">
+            <div class="imageGallery">
+                <div class="imageGallerySlides">
+                    <div class="numbertext">1 / 1</div>
+                    <img src="imgs/vlastivednemuzeum.jpg" style="width:100%">
+                </div>
+            </div>
+            <iframe style="border: none; margin-top: 20px;" src="https://frame.mapy.cz/s/mucogelupu" width="100%" height="300" frameborder="0"></iframe>
+        </div>
+        </section>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>

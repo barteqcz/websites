@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EIRP and ERP calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #1f1f1f;
+            color: white;
+        }
+
+        .container {
+            background-color: #252525;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 600px;
+            max-width: 85%;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #248b40;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #207537;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .space {
+            height: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>ERP & EIRP calculator</h2>
+        <div class="form-group">
+            <label for="transmitteirpower">Transmitter Radiated Power (W):</label>
+            <input type="number" id="transmitteirpower" step="0.5" placeholder="Enter transmitter power" required>
+        </div>
+        <div class="form-group">
+            <label for="antennaGain">Antenna gain (dBi):</label>
+            <input type="number" id="antennaGain" step="0.01" placeholder="Enter the antenna gain" value="3.22" required>
+        </div>
+        <div class="form-group">
+            <label for="systemLosses">Line losses from transmitter to the antenna (dB):</label>
+            <input type="number" id="systemLosses" step="0.1" placeholder="Enter the line loss" value="0.3" required>
+        </div>
+        <button onclick="calculateeirp()">Calculate</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script>
+        function calculateeirp() {
+            // Get input values
+            const transmitteirpower = parseFloat(document.getElementById('transmitteirpower').value);
+            const antennaGain = parseFloat(document.getElementById('antennaGain').value);
+            const systemLosses = parseFloat(document.getElementById('systemLosses').value);
+            
+            // Validate inputs
+            if (isNaN(transmitteirpower) || isNaN(antennaGain) || isNaN(systemLosses) || transmitteirpower < 0 || antennaGain < 0 || systemLosses < 0 || transmitteirpower.length === 0 || antennaGain.length === 0 | systemLosses.length === 0  ) {
+                document.getElementById('result').textContent = 'Please enter valid values.';
+                return;
+            }
+            
+            // Calculate eirp in Watts
+            const eirp = transmitteirpower * Math.pow(10, (antennaGain - systemLosses) / 10);
+            const erp = eirp * Math.pow(10, -2.14 / 10);
+            
+            // Display result
+            document.getElementById('result').innerHTML = '<b>Effective Isotropically Radiated Power (EIRP)</b>: ' + eirp.toFixed(2) + ' W<div class="space"></div>';
+            document.getElementById('result').innerHTML += '<b>Effective Radiated Power (ERP)</b>: ' + erp.toFixed(2) + ' W';
+        }
+    </script>
+</body>
+</html>
